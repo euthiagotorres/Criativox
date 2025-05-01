@@ -1,0 +1,33 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+}
+#container{
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+h1{
+    font-size: 1em;
+}
+#desafio{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+button{
+    background: #ffffff;
+    color: #ff758c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+button:hover{
+    background: #ffdaec;
+}
